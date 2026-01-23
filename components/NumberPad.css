@@ -1,0 +1,45 @@
+.number-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.num-btn {
+  height: 64px;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  background: var(--blue-light);
+  cursor: pointer;
+  box-shadow: var(--button-shadow);
+  transition: transform 0.08s ease, background 0.15s ease;
+}
+
+.num-btn:hover:not(:disabled) {
+  background: var(--blue-medium);
+  transform: translateY(-1px);
+}
+
+.num-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.num-btn:disabled {
+  opacity: 0.35;
+  box-shadow: none;
+}
+
+@media (max-width: 480px) {
+  .number-pad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .num-btn {
+    width: 25px;
+    height: 40px;
+    font-size: 20px;
+  }
+}

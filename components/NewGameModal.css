@@ -1,0 +1,60 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  position: relative;
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  min-width: 280px;
+  text-align: center;
+}
+
+.modal h2 {
+  margin-bottom: 12px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+
+  font-size: 22px;
+  cursor: pointer;
+  color: #555;
+}
+
+.modal-close:hover {
+  color: #ff0000;
+}
+
+.difficulty {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.difficulty button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background: var(--blue-light);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.difficulty button:hover {
+  background: var(--blue-medium);
+}

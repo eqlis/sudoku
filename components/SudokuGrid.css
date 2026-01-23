@@ -1,0 +1,8 @@
+.sudoku-grid {
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.sudoku-row {
+  display: flex;
+}

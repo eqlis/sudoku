@@ -1,0 +1,23 @@
+:root {
+  --blue-light: #eef3ff;
+  --blue-medium: #9abdff;
+  --blue-strong: #5c85ff;
+  --blue-bg: #cfe0ff;
+
+  --text-dark: #1f2937;
+  --text-muted: #6b7280;
+
+  --border-gray: #c7c7c7;
+  --danger-red: #d32f2f;
+
+  --panel-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  --button-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
