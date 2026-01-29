@@ -70,3 +70,7 @@ npm run dev
 - Daily Sudoku challenges with shared puzzles for all users
 - Hints system and error explanations
 - Cloud save / cross-device progress syncing
+
+## License
+
+This project is licensed under the MIT License.
